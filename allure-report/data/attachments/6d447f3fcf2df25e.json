@@ -1,0 +1,4 @@
+{
+    "using": "xpath",
+    "value": "//label[@class='tos-label']//input[@value='on']"
+}

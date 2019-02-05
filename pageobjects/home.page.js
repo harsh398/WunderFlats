@@ -1,4 +1,4 @@
- 
+
 
 var page = require('./page');
 
@@ -13,6 +13,7 @@ var homePage = Object.create(page, {
    loginSwitch:  { get: function () { return browser.element("//a[@class='Modal-footer-link']"); } },
    signUpSwitch: { get: function () { return browser.element("//a[@class='Modal-footer-link']"); } },
    logout: { get: function () { return browser.element("//li[@class='AppHeaderUserNavigation-listItem']//a[@class='AppHeader-link AppHeader-link--logout'][contains(text(),'Logout')]"); } },
+   
    logN: { get: function () { return browser.element("//label[@class='AppHeaderUserNavigation-toggle font-weight--bold']"); } },
     /**
      * define or overwrite page methods
@@ -34,15 +35,15 @@ var homePage = Object.create(page, {
     browser.pause(6000);
         this.signUpPage.click();
     } },
-     logoutAccount: { value: function () {
-     browser.pause(10000);
-        this.logout.click();
-    } },
-           logoutNew: { value: function () {
+       logoutNew: { value: function () {
     browser.pause(6000);
           this.logN.click();
           browser.pause(2000);
           this.logout.click();
+    } },
+     logoutAccount: { value: function () {
+     browser.pause(10000);
+        this.logout.click();
     } },
     isloginSignupPresent: { value: function() {
         if (this.loginSignup.isVisible()){

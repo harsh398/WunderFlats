@@ -1,0 +1,145 @@
+{
+  "uid" : "5145578e74d52e36",
+  "name" : "Verify User settings   ",
+  "fullName" : "Test Suite 3- Verifying .Verify User settings   ",
+  "historyId" : "a8f3f8283bbd450517ee690677f996b4",
+  "time" : {
+    "start" : 1549362477712,
+    "stop" : 1549362503626,
+    "duration" : 25914
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"//label[@class='AppHeaderUserNavigation-toggle AppHeaderUserNavigation-toggle--transparent font-weight--bold']\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"//label[@class='AppHeaderUserNavigation-toggle AppHeaderUserNavigation-toggle--transparent font-weight--bold']\").\n                    at click() -     at C:\\Users\\HD\\Downloads\\Compressed\\WunderFlats\\Modus-Create-master\\Modus-Create-master\\e2e\\node_modules\\wdio-sync\\build\\index.js:312:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"//label[@class='AppHeaderUserNavigation-toggle AppHeaderUserNavigation-toggle--transparent font-weight--bold']\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"//label[@class='AppHeaderUserNavigation-toggle AppHeaderUserNavigation-toggle--transparent font-weight--bold']\").\n                    at click() -     at C:\\Users\\HD\\Downloads\\Compressed\\WunderFlats\\Modus-Create-master\\Modus-Create-master\\e2e\\node_modules\\wdio-sync\\build\\index.js:312:3",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/c63119f5f725b4a436d7c7c3609a25db/url",
+      "time" : {
+        "start" : 1549362477713,
+        "stop" : 1549362477856,
+        "duration" : 143
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "40dc7cd394dad0c0",
+        "name" : "Request",
+        "source" : "40dc7cd394dad0c0.json",
+        "type" : "application/json",
+        "size" : 41
+      }, {
+        "uid" : "1732801796713b9f",
+        "name" : "Response",
+        "source" : "1732801796713b9f.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /wd/hub/session/c63119f5f725b4a436d7c7c3609a25db/element",
+      "time" : {
+        "start" : 1549362502861,
+        "stop" : 1549362502889,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4dcdb0e32ff9a21c",
+        "name" : "Request",
+        "source" : "4dcdb0e32ff9a21c.json",
+        "type" : "application/json",
+        "size" : 151
+      }, {
+        "uid" : "b549ed6be2162d1d",
+        "name" : "Response",
+        "source" : "b549ed6be2162d1d.json",
+        "type" : "application/json",
+        "size" : 793
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /wd/hub/session/c63119f5f725b4a436d7c7c3609a25db/screenshot",
+      "time" : {
+        "start" : 1549362502890,
+        "stop" : 1549362503626,
+        "duration" : 736
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An element could not be located on the page using the given search parameters (\"//label[@class='AppHeaderUserNavigation-toggle AppHeaderUserNavigation-toggle--transparent font-weight--bold']\").\n                    at click() -     at C:\\Users\\HD\\Downloads\\Compressed\\WunderFlats\\Modus-Create-master\\Modus-Create-master\\e2e\\node_modules\\wdio-sync\\build\\index.js:312:3",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e0909a046bb03d93",
+        "name" : "Screenshot",
+        "source" : "e0909a046bb03d93.png",
+        "type" : "image/png",
+        "size" : 622677
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Test Suite 3- Verifying "
+  }, {
+    "name" : "testClass",
+    "value" : "Test Suite 3- Verifying "
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify User settings   "
+  }, {
+    "name" : "package",
+    "value" : "Test Suite 3- Verifying "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5145578e74d52e36.json",
+  "parameterValues" : [ "chrome" ]
+}

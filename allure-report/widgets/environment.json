@@ -2,6 +2,6 @@
   "values" : [ "{\"maxInstances\":1,\"browserName\":\"chrome\",\"chromeOptions\":{\"args\":[\"start-maximized\"]}}" ],
   "name" : "capabilities"
 }, {
-  "values" : [ "[\"C:\\\\Users\\\\HD\\\\Downloads\\\\Compressed\\\\WunderFlats\\\\Modus-Create-master\\\\Modus-Create-master\\\\e2e\\\\test\\\\test1.spec.js\"]" ],
+  "values" : [ "[\"C:\\\\Users\\\\HD\\\\Downloads\\\\Compressed\\\\WunderFlats\\\\Modus-Create-master\\\\Modus-Create-master\\\\e2e\\\\test\\\\test2.spec.js\"]" ],
   "name" : "spec files"
 } ]

@@ -1,0 +1,199 @@
+{
+  "uid" : "ea8a409c9a759d43",
+  "name" : "Should Open Signup Page and should not be able to ssignup with blank  Values   ",
+  "fullName" : "Test Suite 2- SignUp .Should Open Signup Page and should not be able to ssignup with blank  Values   ",
+  "historyId" : "b0a636c71eaff64b6da26eb6eb80d688",
+  "time" : {
+    "start" : 1549366486438,
+    "stop" : 1549366494467,
+    "duration" : 8029
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/header[1]/nav[1]/ul[3]/li[1]/div[1]/a[2]\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/header[1]/nav[1]/ul[3]/li[1]/div[1]/a[2]\").\n                    at click() -     at C:\\Users\\HD\\Downloads\\Compressed\\WunderFlats\\Modus-Create-master\\Modus-Create-master\\e2e\\node_modules\\wdio-sync\\build\\index.js:312:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/header[1]/nav[1]/ul[3]/li[1]/div[1]/a[2]\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/header[1]/nav[1]/ul[3]/li[1]/div[1]/a[2]\").\n                    at click() -     at C:\\Users\\HD\\Downloads\\Compressed\\WunderFlats\\Modus-Create-master\\Modus-Create-master\\e2e\\node_modules\\wdio-sync\\build\\index.js:312:3",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/ba0778584aa2429df1d090ae99e97448/url",
+      "time" : {
+        "start" : 1549366486440,
+        "stop" : 1549366487657,
+        "duration" : 1217
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9c5cb38430c78f86",
+        "name" : "Request",
+        "source" : "9c5cb38430c78f86.json",
+        "type" : "application/json",
+        "size" : 41
+      }, {
+        "uid" : "6036b7b16846704f",
+        "name" : "Response",
+        "source" : "6036b7b16846704f.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /wd/hub/session/ba0778584aa2429df1d090ae99e97448/element",
+      "time" : {
+        "start" : 1549366487658,
+        "stop" : 1549366487677,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "33c4cbc8e29a6875",
+        "name" : "Request",
+        "source" : "33c4cbc8e29a6875.json",
+        "type" : "application/json",
+        "size" : 121
+      }, {
+        "uid" : "b3ec1e868582d212",
+        "name" : "Response",
+        "source" : "b3ec1e868582d212.json",
+        "type" : "application/json",
+        "size" : 733
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /wd/hub/session/ba0778584aa2429df1d090ae99e97448/elements",
+      "time" : {
+        "start" : 1549366487680,
+        "stop" : 1549366487698,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "63c85f9e359aa31c",
+        "name" : "Request",
+        "source" : "63c85f9e359aa31c.json",
+        "type" : "application/json",
+        "size" : 121
+      }, {
+        "uid" : "ed57c2d835214969",
+        "name" : "Response",
+        "source" : "ed57c2d835214969.json",
+        "type" : "application/json",
+        "size" : 89
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /wd/hub/session/ba0778584aa2429df1d090ae99e97448/element",
+      "time" : {
+        "start" : 1549366493700,
+        "stop" : 1549366493721,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a5e6bf654fec2ee",
+        "name" : "Request",
+        "source" : "a5e6bf654fec2ee.json",
+        "type" : "application/json",
+        "size" : 126
+      }, {
+        "uid" : "2dd14b6202811e8c",
+        "name" : "Response",
+        "source" : "2dd14b6202811e8c.json",
+        "type" : "application/json",
+        "size" : 743
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /wd/hub/session/ba0778584aa2429df1d090ae99e97448/screenshot",
+      "time" : {
+        "start" : 1549366493721,
+        "stop" : 1549366494467,
+        "duration" : 746
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An element could not be located on the page using the given search parameters (\"/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/header[1]/nav[1]/ul[3]/li[1]/div[1]/a[2]\").\n                    at click() -     at C:\\Users\\HD\\Downloads\\Compressed\\WunderFlats\\Modus-Create-master\\Modus-Create-master\\e2e\\node_modules\\wdio-sync\\build\\index.js:312:3",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7de7872d4905f393",
+        "name" : "Screenshot",
+        "source" : "7de7872d4905f393.png",
+        "type" : "image/png",
+        "size" : 622783
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Test Suite 2- SignUp "
+  }, {
+    "name" : "testClass",
+    "value" : "Test Suite 2- SignUp "
+  }, {
+    "name" : "testMethod",
+    "value" : "Should Open Signup Page and should not be able to ssignup with blank  Values   "
+  }, {
+    "name" : "package",
+    "value" : "Test Suite 2- SignUp "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ea8a409c9a759d43.json",
+  "parameterValues" : [ "chrome" ]
+}

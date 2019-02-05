@@ -1,0 +1,117 @@
+{
+  "uid" : "527435de76414b89",
+  "name" : "Should Open Account Settings   ",
+  "fullName" : "Test Suite 3- Verifying .Should Open Account Settings   ",
+  "historyId" : "5aa0a72f293507a598ba2d551f0846d7",
+  "time" : {
+    "start" : 1549362139028,
+    "stop" : 1549362143513,
+    "duration" : 4485
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: session deleted because of page crash\n                from tab crashed",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at url(\"https://wunderflats.com\") -     at C:\\Users\\HD\\Downloads\\Compressed\\WunderFlats\\Modus-Create-master\\Modus-Create-master\\e2e\\node_modules\\wdio-sync\\build\\index.js:312:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: session deleted because of page crash\n                from tab crashed",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at url(\"https://wunderflats.com\") -     at C:\\Users\\HD\\Downloads\\Compressed\\WunderFlats\\Modus-Create-master\\Modus-Create-master\\e2e\\node_modules\\wdio-sync\\build\\index.js:312:3",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/76b6de8835375dc547ff916beb43629d/url",
+      "time" : {
+        "start" : 1549362139033,
+        "stop" : 1549362143482,
+        "duration" : 4449
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "117e5edd75a8f1bd",
+        "name" : "Request",
+        "source" : "117e5edd75a8f1bd.json",
+        "type" : "application/json",
+        "size" : 41
+      }, {
+        "uid" : "31419cef4fd4db6",
+        "name" : "Response",
+        "source" : "31419cef4fd4db6.json",
+        "type" : "application/json",
+        "size" : 535
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /wd/hub/session/76b6de8835375dc547ff916beb43629d/screenshot",
+      "time" : {
+        "start" : 1549362143484,
+        "stop" : 1549362143512,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "13cd0370f623c896",
+        "name" : "Response",
+        "source" : "13cd0370f623c896.json",
+        "type" : "application/json",
+        "size" : 494
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Test Suite 3- Verifying "
+  }, {
+    "name" : "testClass",
+    "value" : "Test Suite 3- Verifying "
+  }, {
+    "name" : "testMethod",
+    "value" : "Should Open Account Settings   "
+  }, {
+    "name" : "package",
+    "value" : "Test Suite 3- Verifying "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "527435de76414b89.json",
+  "parameterValues" : [ "chrome" ]
+}

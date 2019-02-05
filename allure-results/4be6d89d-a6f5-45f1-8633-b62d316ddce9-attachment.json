@@ -1,0 +1,4 @@
+{
+    "using": "xpath",
+    "value": "//li[@class='AppHeaderUserNavigation-listItem']//a[@class='AppHeader-link AppHeader-link--logout'][contains(text(),'Logout')]"
+}

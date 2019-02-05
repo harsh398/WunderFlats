@@ -1,0 +1,4 @@
+{
+    "using": "xpath",
+    "value": "//label[@class='AppHeaderUserNavigation-toggle AppHeaderUserNavigation-toggle--transparent font-weight--bold']"
+}

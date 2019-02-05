@@ -1,0 +1,145 @@
+{
+  "uid" : "ac9a89eeedf3fbe3",
+  "name" : "Should  Fail as Entering Invalid values    ",
+  "fullName" : "Test Suite 4 - Negative Test .Should  Fail as Entering Invalid values    ",
+  "historyId" : "41a96988d4d06abbc62e7f1fd2038546",
+  "time" : {
+    "start" : 1549367509511,
+    "stop" : 1549367538766,
+    "duration" : 29255
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"//div[text()='/']//a[@class='AppHeader-link AppHeader-link--login'][contains(text(),'Log in')]\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"//div[text()='/']//a[@class='AppHeader-link AppHeader-link--login'][contains(text(),'Log in')]\").\n                    at click() -     at C:\\Users\\HD\\Downloads\\Compressed\\WunderFlats\\Modus-Create-master\\Modus-Create-master\\e2e\\node_modules\\wdio-sync\\build\\index.js:312:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"//div[text()='/']//a[@class='AppHeader-link AppHeader-link--login'][contains(text(),'Log in')]\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"//div[text()='/']//a[@class='AppHeader-link AppHeader-link--login'][contains(text(),'Log in')]\").\n                    at click() -     at C:\\Users\\HD\\Downloads\\Compressed\\WunderFlats\\Modus-Create-master\\Modus-Create-master\\e2e\\node_modules\\wdio-sync\\build\\index.js:312:3",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/a4da70cb476e8bfe2457f8bcee0913d6/url",
+      "time" : {
+        "start" : 1549367509512,
+        "stop" : 1549367522039,
+        "duration" : 12527
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "445bce27c1f07cb0",
+        "name" : "Request",
+        "source" : "445bce27c1f07cb0.json",
+        "type" : "application/json",
+        "size" : 41
+      }, {
+        "uid" : "a9cd04aae456e891",
+        "name" : "Response",
+        "source" : "a9cd04aae456e891.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /wd/hub/session/a4da70cb476e8bfe2457f8bcee0913d6/element",
+      "time" : {
+        "start" : 1549367538041,
+        "stop" : 1549367538062,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "54b048c23f6abe73",
+        "name" : "Request",
+        "source" : "54b048c23f6abe73.json",
+        "type" : "application/json",
+        "size" : 135
+      }, {
+        "uid" : "884be469b9ab659f",
+        "name" : "Response",
+        "source" : "884be469b9ab659f.json",
+        "type" : "application/json",
+        "size" : 761
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /wd/hub/session/a4da70cb476e8bfe2457f8bcee0913d6/screenshot",
+      "time" : {
+        "start" : 1549367538063,
+        "stop" : 1549367538766,
+        "duration" : 703
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An element could not be located on the page using the given search parameters (\"//div[text()='/']//a[@class='AppHeader-link AppHeader-link--login'][contains(text(),'Log in')]\").\n                    at click() -     at C:\\Users\\HD\\Downloads\\Compressed\\WunderFlats\\Modus-Create-master\\Modus-Create-master\\e2e\\node_modules\\wdio-sync\\build\\index.js:312:3",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dfcb730db8530288",
+        "name" : "Screenshot",
+        "source" : "dfcb730db8530288.png",
+        "type" : "image/png",
+        "size" : 622783
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Test Suite 4 - Negative Test "
+  }, {
+    "name" : "testClass",
+    "value" : "Test Suite 4 - Negative Test "
+  }, {
+    "name" : "testMethod",
+    "value" : "Should  Fail as Entering Invalid values    "
+  }, {
+    "name" : "package",
+    "value" : "Test Suite 4 - Negative Test "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ac9a89eeedf3fbe3.json",
+  "parameterValues" : [ "chrome" ]
+}

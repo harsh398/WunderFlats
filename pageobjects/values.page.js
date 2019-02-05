@@ -19,8 +19,7 @@ var valuesPage = Object.create(page, {
     } },
          signIP: { value: function () {
          signP.signUpValues( "","",'harsh35@live.com','','','9041430599');
-    } },
-
+    } },3
      accountI: { value: function () {
          accountP.profileSetting( "Harsharan","Deep",'harsh35@live.com','','#B31/229 sirhnadi gate','147001','Patiala','Punjab','QA','Freelancer');
     } },

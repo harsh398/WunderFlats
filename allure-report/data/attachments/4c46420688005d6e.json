@@ -1,0 +1,4 @@
+{
+    "using": "xpath",
+    "value": "//ul[@class='AppHeaderUserNavigation-list AppHeaderUserNavigation-list--transparent']//li[1]"
+}

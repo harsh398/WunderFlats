@@ -5,15 +5,15 @@
     "name" : "Test Suite 1 ",
     "children" : [ {
       "name" : "Should Open WunderFlats Home Page and Open Sign up/Login Dialogue box  ",
-      "uid" : "7541f985b164f35e",
+      "uid" : "b7facfd8536f46c7",
       "parentUid" : "a610390eca5a1fd19d51098ce219077b",
       "status" : "passed",
       "time" : {
-        "start" : 1549358645390,
-        "stop" : 1549358659365,
-        "duration" : 13975
+        "start" : 1549367713792,
+        "stop" : 1549367728494,
+        "duration" : 14702
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ "chrome" ]
     } ],
     "uid" : "a610390eca5a1fd19d51098ce219077b"
@@ -21,27 +21,27 @@
     "name" : "Test Suite 2- SignUp ",
     "children" : [ {
       "name" : "Should Open Signup Page and should be able to Signup  ",
-      "uid" : "18a0bbb530677416",
-      "parentUid" : "5f469bd1bed8cbc3a62903d6f600d6d4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1549358663738,
-        "stop" : 1549358702667,
-        "duration" : 38929
-      },
-      "flaky" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Should Open Signup Page and should not be able to ssignup with blank  Values   ",
-      "uid" : "6ccc05cc19ddac52",
+      "uid" : "63f2c3d3542e5bf5",
       "parentUid" : "5f469bd1bed8cbc3a62903d6f600d6d4",
       "status" : "passed",
       "time" : {
-        "start" : 1549358702667,
-        "stop" : 1549358713295,
-        "duration" : 10628
+        "start" : 1549367732722,
+        "stop" : 1549367792908,
+        "duration" : 60186
       },
-      "flaky" : false,
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Should Open Signup Page and should not be able to ssignup with blank  Values   ",
+      "uid" : "c0b91c4f8a706658",
+      "parentUid" : "5f469bd1bed8cbc3a62903d6f600d6d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549367792909,
+        "stop" : 1549367803517,
+        "duration" : 10608
+      },
+      "flaky" : true,
       "parameters" : [ "chrome" ]
     } ],
     "uid" : "5f469bd1bed8cbc3a62903d6f600d6d4"
@@ -49,27 +49,27 @@
     "name" : "Test Suite 3- Verifying ",
     "children" : [ {
       "name" : "Should Open Account Settings   ",
-      "uid" : "21db9ca363afc414",
+      "uid" : "9f68e0d2279b32ef",
       "parentUid" : "45e5657077074af85242f876f5aa2afc",
       "status" : "passed",
       "time" : {
-        "start" : 1549358717531,
-        "stop" : 1549358771723,
-        "duration" : 54192
+        "start" : 1549367807859,
+        "stop" : 1549367857134,
+        "duration" : 49275
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "Verify User settings   ",
-      "uid" : "eabb1bc3882e38d0",
+      "uid" : "830d103a8c62e75a",
       "parentUid" : "45e5657077074af85242f876f5aa2afc",
       "status" : "passed",
       "time" : {
-        "start" : 1549358771723,
-        "stop" : 1549358801973,
-        "duration" : 30250
+        "start" : 1549367857135,
+        "stop" : 1549367889217,
+        "duration" : 32082
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ "chrome" ]
     } ],
     "uid" : "45e5657077074af85242f876f5aa2afc"
@@ -77,27 +77,27 @@
     "name" : "Test Suite 4 - Negative Test ",
     "children" : [ {
       "name" : "Should Open Account Settings   ",
-      "uid" : "43c91a9e3486afce",
+      "uid" : "875c9d5393a3c96c",
       "parentUid" : "415d0c20a0a4c170eba0254545c943e6",
       "status" : "passed",
       "time" : {
-        "start" : 1549358806357,
-        "stop" : 1549358863144,
-        "duration" : 56787
+        "start" : 1549367893393,
+        "stop" : 1549367958304,
+        "duration" : 64911
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "Should  Fail as Entering Invalid values    ",
-      "uid" : "b21980ba13c688e",
+      "uid" : "2fa21e02e979e9c3",
       "parentUid" : "415d0c20a0a4c170eba0254545c943e6",
       "status" : "failed",
       "time" : {
-        "start" : 1549358863144,
-        "stop" : 1549358903054,
-        "duration" : 39910
+        "start" : 1549367958304,
+        "stop" : 1549367999932,
+        "duration" : 41628
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ "chrome" ]
     } ],
     "uid" : "415d0c20a0a4c170eba0254545c943e6"

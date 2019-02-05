@@ -1,0 +1,144 @@
+{
+  "uid" : "8517dade5d97cc9b",
+  "name" : "Should Open Account Settings   ",
+  "fullName" : "Test Suite 3- Verifying .Should Open Account Settings   ",
+  "historyId" : "5aa0a72f293507a598ba2d551f0846d7",
+  "time" : {
+    "start" : 1549365724337,
+    "stop" : 1549365746226,
+    "duration" : 21889
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: session deleted because of page crash\n                from tab crashed",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at element(\"//div[text()='/']//a[@class='AppHeader-link AppHeader-link--login'][contains(text(),'Log in')]\") -     at C:\\Users\\HD\\Downloads\\Compressed\\WunderFlats\\Modus-Create-master\\Modus-Create-master\\e2e\\node_modules\\wdio-sync\\build\\index.js:312:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: session deleted because of page crash\n                from tab crashed",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at element(\"//div[text()='/']//a[@class='AppHeader-link AppHeader-link--login'][contains(text(),'Log in')]\") -     at C:\\Users\\HD\\Downloads\\Compressed\\WunderFlats\\Modus-Create-master\\Modus-Create-master\\e2e\\node_modules\\wdio-sync\\build\\index.js:312:3",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/1ccb7d49f69c3f3538f27063ba649dd4/url",
+      "time" : {
+        "start" : 1549365724343,
+        "stop" : 1549365730148,
+        "duration" : 5805
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "935f65711ab116db",
+        "name" : "Request",
+        "source" : "935f65711ab116db.json",
+        "type" : "application/json",
+        "size" : 41
+      }, {
+        "uid" : "e3b9dc269b63dc31",
+        "name" : "Response",
+        "source" : "e3b9dc269b63dc31.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /wd/hub/session/1ccb7d49f69c3f3538f27063ba649dd4/element",
+      "time" : {
+        "start" : 1549365746155,
+        "stop" : 1549365746182,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "766fa2454dfcc0b8",
+        "name" : "Request",
+        "source" : "766fa2454dfcc0b8.json",
+        "type" : "application/json",
+        "size" : 135
+      }, {
+        "uid" : "dbba82af2b522e28",
+        "name" : "Response",
+        "source" : "dbba82af2b522e28.json",
+        "type" : "application/json",
+        "size" : 535
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /wd/hub/session/1ccb7d49f69c3f3538f27063ba649dd4/screenshot",
+      "time" : {
+        "start" : 1549365746187,
+        "stop" : 1549365746226,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3bacccbe7f0e08a9",
+        "name" : "Response",
+        "source" : "3bacccbe7f0e08a9.json",
+        "type" : "application/json",
+        "size" : 494
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Test Suite 3- Verifying "
+  }, {
+    "name" : "testClass",
+    "value" : "Test Suite 3- Verifying "
+  }, {
+    "name" : "testMethod",
+    "value" : "Should Open Account Settings   "
+  }, {
+    "name" : "package",
+    "value" : "Test Suite 3- Verifying "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8517dade5d97cc9b.json",
+  "parameterValues" : [ "chrome" ]
+}

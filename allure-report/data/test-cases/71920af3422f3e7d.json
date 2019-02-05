@@ -1,0 +1,234 @@
+{
+  "uid" : "71920af3422f3e7d",
+  "name" : "Should Open WunderFlats Home Page and Open Sign up/Login Dialogue box  ",
+  "fullName" : "Test Suite 1 .Should Open WunderFlats Home Page and Open Sign up/Login Dialogue box  ",
+  "historyId" : "6bcbafd1d637f09b6fb37fb60f39ad8c",
+  "time" : {
+    "start" : 1549366715010,
+    "stop" : 1549366727647,
+    "duration" : 12637
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: session deleted because of page crash\n                from tab crashed",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at element(\"//div[text()='/']//a[@class='AppHeader-link AppHeader-link--login'][contains(text(),'Log in')]\") -     at C:\\Users\\HD\\Downloads\\Compressed\\WunderFlats\\Modus-Create-master\\Modus-Create-master\\e2e\\node_modules\\wdio-sync\\build\\index.js:312:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: session deleted because of page crash\n                from tab crashed",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at element(\"//div[text()='/']//a[@class='AppHeader-link AppHeader-link--login'][contains(text(),'Log in')]\") -     at C:\\Users\\HD\\Downloads\\Compressed\\WunderFlats\\Modus-Create-master\\Modus-Create-master\\e2e\\node_modules\\wdio-sync\\build\\index.js:312:3",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/9887b1e2cba1e3edea9803d5cdca75d5/url",
+      "time" : {
+        "start" : 1549366715016,
+        "stop" : 1549366721507,
+        "duration" : 6491
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4f43eb37996b067b",
+        "name" : "Request",
+        "source" : "4f43eb37996b067b.json",
+        "type" : "application/json",
+        "size" : 41
+      }, {
+        "uid" : "a48439a0bda86a90",
+        "name" : "Response",
+        "source" : "a48439a0bda86a90.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /wd/hub/session/9887b1e2cba1e3edea9803d5cdca75d5/title",
+      "time" : {
+        "start" : 1549366721512,
+        "stop" : 1549366721521,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "620eb977608864da",
+        "name" : "Response",
+        "source" : "620eb977608864da.json",
+        "type" : "application/json",
+        "size" : 128
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /wd/hub/session/9887b1e2cba1e3edea9803d5cdca75d5/title",
+      "time" : {
+        "start" : 1549366721523,
+        "stop" : 1549366721532,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f4ae7ac4c26a6451",
+        "name" : "Response",
+        "source" : "f4ae7ac4c26a6451.json",
+        "type" : "application/json",
+        "size" : 128
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /wd/hub/session/9887b1e2cba1e3edea9803d5cdca75d5/element",
+      "time" : {
+        "start" : 1549366721533,
+        "stop" : 1549366721563,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b82bdc4102740215",
+        "name" : "Request",
+        "source" : "b82bdc4102740215.json",
+        "type" : "application/json",
+        "size" : 121
+      }, {
+        "uid" : "6adf41a55474d6c6",
+        "name" : "Response",
+        "source" : "6adf41a55474d6c6.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /wd/hub/session/9887b1e2cba1e3edea9803d5cdca75d5/element/0.6427118349552634-1/displayed",
+      "time" : {
+        "start" : 1549366721565,
+        "stop" : 1549366721582,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dd78443171a9dc84",
+        "name" : "Response",
+        "source" : "dd78443171a9dc84.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /wd/hub/session/9887b1e2cba1e3edea9803d5cdca75d5/element",
+      "time" : {
+        "start" : 1549366727586,
+        "stop" : 1549366727615,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8cd9312939ad1f9",
+        "name" : "Request",
+        "source" : "8cd9312939ad1f9.json",
+        "type" : "application/json",
+        "size" : 135
+      }, {
+        "uid" : "ca489404a91a997d",
+        "name" : "Response",
+        "source" : "ca489404a91a997d.json",
+        "type" : "application/json",
+        "size" : 535
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /wd/hub/session/9887b1e2cba1e3edea9803d5cdca75d5/screenshot",
+      "time" : {
+        "start" : 1549366727619,
+        "stop" : 1549366727645,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "739ee4bf9e31c581",
+        "name" : "Response",
+        "source" : "739ee4bf9e31c581.json",
+        "type" : "application/json",
+        "size" : 494
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test Suite 1 "
+  }, {
+    "name" : "testClass",
+    "value" : "Test Suite 1 "
+  }, {
+    "name" : "testMethod",
+    "value" : "Should Open WunderFlats Home Page and Open Sign up/Login Dialogue box  "
+  }, {
+    "name" : "package",
+    "value" : "Test Suite 1 "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "71920af3422f3e7d.json",
+  "parameterValues" : [ "chrome" ]
+}

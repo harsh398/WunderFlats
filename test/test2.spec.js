@@ -1,4 +1,4 @@
- var expect = require('chai').expect;
+var expect = require('chai').expect;
 var assert = require('chai').assert;
 const chai = require('chai')
 const chaiHttp = require('chai-http');
@@ -21,10 +21,10 @@ describe('Test Suite 2- SignUp ', () => {
         console.log("2. Opening Sign Up Page");
         homePage.signUpRedirect();
         valuePage.signI();
-        console.log("4. User Signed Up");
+        console.log("3. User Signed Up");
         accountPage.accountRedirect();
-        console.log("5. Logging out ");
-         homePage.logoutNew();
+        console.log("4. Logging out ");
+        homePage.logoutNew();
         console.log(".....................Test execution finished.......................");
 
     });
