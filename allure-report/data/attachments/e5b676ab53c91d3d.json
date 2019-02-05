@@ -1,0 +1,4 @@
+{
+    "using": "xpath",
+    "value": "//div[text()='/']//a[@class='AppHeader-link AppHeader-link--login'][contains(text(),'Log in')]"
+}

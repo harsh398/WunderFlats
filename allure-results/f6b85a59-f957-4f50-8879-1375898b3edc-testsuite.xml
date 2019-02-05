@@ -1,0 +1,189 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1549362770878' stop='1549362840204'>
+    <name>Test Suite 3- Verifying </name>
+    <title>Test Suite 3- Verifying </title>
+    <test-cases>
+        <test-case start='1549362770901' status='broken' stop='1549362812905'>
+            <name>Should Open Account Settings   </name>
+            <title>Should Open Account Settings   </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","chromeOptions":{"args":["start-maximized"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\HD\\Downloads\\Compressed\\WunderFlats\\Modus-Create-master\\Modus-Create-master\\e2e\\test\\test3.spec.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1549362770906' status='passed' stop='1549362776629'>
+                    <name>POST /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/url</name>
+                    <title>POST /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/url</title>
+                    <attachments>
+                        <attachment title='Request' source='13aaf8ab-2612-4171-b779-6cbe01b2559d-attachment.json' type='application/json' size='41'/>
+                        <attachment title='Response' source='3873c892-7603-47d2-82f5-8b8855d72e99-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1549362792637' status='passed' stop='1549362792658'>
+                    <name>POST /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/element</name>
+                    <title>POST /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/element</title>
+                    <attachments>
+                        <attachment title='Request' source='61c57f6c-51ea-4c54-809c-9b83cfce0474-attachment.json' type='application/json' size='135'/>
+                        <attachment title='Response' source='d0765043-5d11-4dd4-a5e0-d86eff214161-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1549362792662' status='passed' stop='1549362792775'>
+                    <name>POST /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/element/0.3987539749451987-1/click</name>
+                    <title>POST /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/element/0.3987539749451987-1/click</title>
+                    <attachments>
+                        <attachment title='Response' source='45ba06b5-d1ee-451b-a522-3f98048aad21-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1549362792777' status='passed' stop='1549362792793'>
+                    <name>POST /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/element</name>
+                    <title>POST /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/element</title>
+                    <attachments>
+                        <attachment title='Request' source='aca1497a-4163-42f7-8af1-3097e7c7ea41-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='8a49420b-de6e-4fde-810d-24bfc62b3791-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1549362792798' status='passed' stop='1549362792826'>
+                    <name>POST /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/element/0.3987539749451987-2/clear</name>
+                    <title>POST /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/element/0.3987539749451987-2/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='ee2e2a9a-ce66-4d28-b7d4-23a55593aea5-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1549362792826' status='passed' stop='1549362792936'>
+                    <name>POST /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/element/0.3987539749451987-2/value</name>
+                    <title>POST /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/element/0.3987539749451987-2/value</title>
+                    <attachments>
+                        <attachment title='Request' source='ead5127f-9c36-41b3-99e7-e5965553ea41-attachment.json' type='application/json' size='277'/>
+                        <attachment title='Response' source='4bc3d4b6-926b-47cb-bd1f-fc992f420b7b-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1549362792938' status='passed' stop='1549362792953'>
+                    <name>POST /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/element</name>
+                    <title>POST /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c30fd68d-e086-44d9-a3ee-22238d53392b-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='56fe31a7-2566-4705-abd1-a64c37c5aadf-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1549362792957' status='passed' stop='1549362792987'>
+                    <name>POST /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/element/0.3987539749451987-3/clear</name>
+                    <title>POST /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/element/0.3987539749451987-3/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='2c829645-b558-4b3d-abca-636a65c336b3-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1549362792987' status='passed' stop='1549362793052'>
+                    <name>POST /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/element/0.3987539749451987-3/value</name>
+                    <title>POST /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/element/0.3987539749451987-3/value</title>
+                    <attachments>
+                        <attachment title='Request' source='28b495b3-b46e-4a09-8ca8-e42f92b2ffa1-attachment.json' type='application/json' size='165'/>
+                        <attachment title='Response' source='ca79788a-3f9d-47fc-b3d7-4d7e114f7a93-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1549362793053' status='passed' stop='1549362793070'>
+                    <name>POST /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/element</name>
+                    <title>POST /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/element</title>
+                    <attachments>
+                        <attachment title='Request' source='08ff86fb-fc50-433c-ac3c-e7c3a0e65ce6-attachment.json' type='application/json' size='75'/>
+                        <attachment title='Response' source='6e2162b2-3545-495a-80c9-e0631d5c2936-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1549362793072' status='passed' stop='1549362793144'>
+                    <name>POST /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/element/0.3987539749451987-4/click</name>
+                    <title>POST /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/element/0.3987539749451987-4/click</title>
+                    <attachments>
+                        <attachment title='Response' source='96fb9ff4-911b-457b-a302-515355c1770e-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1549362812148' status='passed' stop='1549362812170'>
+                    <name>POST /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/element</name>
+                    <title>POST /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8d821a49-081a-425b-bc5f-e73ac053bb91-attachment.json' type='application/json' size='151'/>
+                        <attachment title='Response' source='2fdb50d4-6ed4-44d8-a876-e61e7029554a-attachment.json' type='application/json' size='793'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1549362812172' status='broken' stop='1549362812905'>
+                    <name>GET /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/screenshot</name>
+                    <title>GET /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e55728c4-fdc0-4f60-80ff-665715af6653-attachment.png' type='image/png' size='587072'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>An element could not be located on the page using the given search parameters ("//label[@class='AppHeaderUserNavigation-toggle AppHeaderUserNavigation-toggle--transparent font-weight--bold']").</message>
+                <stack-trace>Error: An element could not be located on the page using the given search parameters ("//label[@class='AppHeaderUserNavigation-toggle AppHeaderUserNavigation-toggle--transparent font-weight--bold']").
+                    at click() -     at C:\Users\HD\Downloads\Compressed\WunderFlats\Modus-Create-master\Modus-Create-master\e2e\node_modules\wdio-sync\build\index.js:312:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1549362812906' status='broken' stop='1549362840204'>
+            <name>Verify User settings   </name>
+            <title>Verify User settings   </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","chromeOptions":{"args":["start-maximized"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\HD\\Downloads\\Compressed\\WunderFlats\\Modus-Create-master\\Modus-Create-master\\e2e\\test\\test3.spec.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1549362812906' status='passed' stop='1549362814421'>
+                    <name>POST /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/url</name>
+                    <title>POST /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/url</title>
+                    <attachments>
+                        <attachment title='Request' source='5e210410-86c5-489b-9014-f8a9f8de25f2-attachment.json' type='application/json' size='41'/>
+                        <attachment title='Response' source='eb10043d-603a-44b5-84f6-cb81ade38c05-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1549362839423' status='passed' stop='1549362839445'>
+                    <name>POST /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/element</name>
+                    <title>POST /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/element</title>
+                    <attachments>
+                        <attachment title='Request' source='78312292-41c7-4504-ab3d-187ec3060d0a-attachment.json' type='application/json' size='151'/>
+                        <attachment title='Response' source='a2eeb4df-39e1-4e08-93de-d9aade11135a-attachment.json' type='application/json' size='793'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1549362839446' status='broken' stop='1549362840204'>
+                    <name>GET /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/screenshot</name>
+                    <title>GET /wd/hub/session/73781c20297d738eea2d6d7fcd7e3fad/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='bf70f277-e3e2-45ed-a2e2-7dbf828f28a3-attachment.png' type='image/png' size='622677'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>An element could not be located on the page using the given search parameters ("//label[@class='AppHeaderUserNavigation-toggle AppHeaderUserNavigation-toggle--transparent font-weight--bold']").</message>
+                <stack-trace>Error: An element could not be located on the page using the given search parameters ("//label[@class='AppHeaderUserNavigation-toggle AppHeaderUserNavigation-toggle--transparent font-weight--bold']").
+                    at click() -     at C:\Users\HD\Downloads\Compressed\WunderFlats\Modus-Create-master\Modus-Create-master\e2e\node_modules\wdio-sync\build\index.js:312:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

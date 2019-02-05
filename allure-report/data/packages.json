@@ -1,0 +1,105 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Test Suite 1 ",
+    "children" : [ {
+      "name" : "Should Open WunderFlats Home Page and Open Sign up/Login Dialogue box  ",
+      "uid" : "7541f985b164f35e",
+      "parentUid" : "ea4e206cc58b599ee4220e016847fa6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549358645390,
+        "stop" : 1549358659365,
+        "duration" : 13975
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "ea4e206cc58b599ee4220e016847fa6b"
+  }, {
+    "name" : "Test Suite 2- SignUp ",
+    "children" : [ {
+      "name" : "Should Open Signup Page and should be able to Signup  ",
+      "uid" : "18a0bbb530677416",
+      "parentUid" : "f7d3722dbfaf597a5031db15f5053f9c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1549358663738,
+        "stop" : 1549358702667,
+        "duration" : 38929
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Should Open Signup Page and should not be able to ssignup with blank  Values   ",
+      "uid" : "6ccc05cc19ddac52",
+      "parentUid" : "f7d3722dbfaf597a5031db15f5053f9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549358702667,
+        "stop" : 1549358713295,
+        "duration" : 10628
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "f7d3722dbfaf597a5031db15f5053f9c"
+  }, {
+    "name" : "Test Suite 3- Verifying ",
+    "children" : [ {
+      "name" : "Should Open Account Settings   ",
+      "uid" : "21db9ca363afc414",
+      "parentUid" : "dcc011a9f10d271fd520a888c1b36bd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549358717531,
+        "stop" : 1549358771723,
+        "duration" : 54192
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Verify User settings   ",
+      "uid" : "eabb1bc3882e38d0",
+      "parentUid" : "dcc011a9f10d271fd520a888c1b36bd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549358771723,
+        "stop" : 1549358801973,
+        "duration" : 30250
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "dcc011a9f10d271fd520a888c1b36bd6"
+  }, {
+    "name" : "Test Suite 4 - Negative Test ",
+    "children" : [ {
+      "name" : "Should Open Account Settings   ",
+      "uid" : "43c91a9e3486afce",
+      "parentUid" : "2bddd2646f4b71207c18da1728185dfe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549358806357,
+        "stop" : 1549358863144,
+        "duration" : 56787
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Should  Fail as Entering Invalid values    ",
+      "uid" : "b21980ba13c688e",
+      "parentUid" : "2bddd2646f4b71207c18da1728185dfe",
+      "status" : "failed",
+      "time" : {
+        "start" : 1549358863144,
+        "stop" : 1549358903054,
+        "duration" : 39910
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "2bddd2646f4b71207c18da1728185dfe"
+  } ]
+}

@@ -1,0 +1,71 @@
+[ {
+  "uid" : "43c91a9e3486afce",
+  "name" : "Should Open Account Settings   ",
+  "time" : {
+    "start" : 1549358806357,
+    "stop" : 1549358863144,
+    "duration" : 56787
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21db9ca363afc414",
+  "name" : "Should Open Account Settings   ",
+  "time" : {
+    "start" : 1549358717531,
+    "stop" : 1549358771723,
+    "duration" : 54192
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ccc05cc19ddac52",
+  "name" : "Should Open Signup Page and should not be able to ssignup with blank  Values   ",
+  "time" : {
+    "start" : 1549358702667,
+    "stop" : 1549358713295,
+    "duration" : 10628
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7541f985b164f35e",
+  "name" : "Should Open WunderFlats Home Page and Open Sign up/Login Dialogue box  ",
+  "time" : {
+    "start" : 1549358645390,
+    "stop" : 1549358659365,
+    "duration" : 13975
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18a0bbb530677416",
+  "name" : "Should Open Signup Page and should be able to Signup  ",
+  "time" : {
+    "start" : 1549358663738,
+    "stop" : 1549358702667,
+    "duration" : 38929
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b21980ba13c688e",
+  "name" : "Should  Fail as Entering Invalid values    ",
+  "time" : {
+    "start" : 1549358863144,
+    "stop" : 1549358903054,
+    "duration" : 39910
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "eabb1bc3882e38d0",
+  "name" : "Verify User settings   ",
+  "time" : {
+    "start" : 1549358771723,
+    "stop" : 1549358801973,
+    "duration" : 30250
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,89 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Should Open WunderFlats Home Page and Open Sign up/Login Dialogue box  ",
+    "uid" : "7541f985b164f35e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1549358645390,
+      "stop" : 1549358659365,
+      "duration" : 13975
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Should Open Signup Page and should be able to Signup  ",
+    "uid" : "18a0bbb530677416",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1549358663738,
+      "stop" : 1549358702667,
+      "duration" : 38929
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Should Open Signup Page and should not be able to ssignup with blank  Values   ",
+    "uid" : "6ccc05cc19ddac52",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1549358702667,
+      "stop" : 1549358713295,
+      "duration" : 10628
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Should Open Account Settings   ",
+    "uid" : "21db9ca363afc414",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1549358717531,
+      "stop" : 1549358771723,
+      "duration" : 54192
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Verify User settings   ",
+    "uid" : "eabb1bc3882e38d0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1549358771723,
+      "stop" : 1549358801973,
+      "duration" : 30250
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Should Open Account Settings   ",
+    "uid" : "43c91a9e3486afce",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1549358806357,
+      "stop" : 1549358863144,
+      "duration" : 56787
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Should  Fail as Entering Invalid values    ",
+    "uid" : "b21980ba13c688e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1549358863144,
+      "stop" : 1549358903054,
+      "duration" : 39910
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  } ]
+}
