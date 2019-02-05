@@ -1,4 +1,4 @@
-
+ 
 
 var page = require('./page');
 
@@ -56,8 +56,9 @@ var signUpPage = Object.create(page, {
             return false
         }
         this.tickAccept.click();
+        browser.pause(2000);
         this.signUp.click();
-        browser.pause(8000);
+        browser.pause(12000);
         
     } }, 
 });
