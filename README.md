@@ -157,7 +157,7 @@ Reports
 ************************************************************************************************
 
 ##### Report generation
-1. type npx allure generate under Command Line
+1. type********************** npx allure generate ******************under Command Line
 3. Allure-reports and Allure-results Folders would be Generated .
 4. Open Allure-Reports Folder and Open index.html file in Internet Explorer or FireFox (chrome not Supported Yet)
   
