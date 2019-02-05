@@ -43,7 +43,7 @@ it('Verify User settings   ', function () {
         assert.equal( accountPage.lName() , "Deep", "Last Name is not Equal");
         console.log("3.1 First Name and Last Name are equal");
         //Checking if Email Values is Equal
-        assert.equal( accountPage.eMail() , "harsh398@live.com", "Email is not Equal ");
+        assert.equal( accountPage.eMail() , "harsh35@live.com", "Email is not Equal ");
         console.log("3.2 Email are equal");
         //Check if Selcted Country matches
         assert.equal( accountPage.phoneNo() , "IN", "Value is not Equal");

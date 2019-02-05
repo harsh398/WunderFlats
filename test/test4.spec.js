@@ -46,7 +46,7 @@ it('Should  Fail as Entering Invalid values    ', function () {
         assert.equal(true ,!/[^a-z]/i.test(accountPage.lName()) , " Error: Last name  cant be numbers " );
         assert.equal( accountPage.lName() , "Deep", " Error: Last Name is not Equal");
         console.log("3.1 First Name and Last Name are equal");
-        assert.equal( accountPage.eMail() , "harsh398@live.com", " Error: Email is not Equal ");
+        assert.equal( accountPage.eMail() , "harsh35@live.com", " Error: Email is not Equal ");
         console.log("3.2 Email are equal");
         assert.equal( accountPage.phoneNo() , "IN", " Error: Value is not Equal");
         console.log("3.3 Country Value is Correct");
