@@ -33,7 +33,7 @@ this is where to choose to Signup for new account
 ************************************************************************************************
 
 ### Scope
-The Test plan consists of test scenarios that will cover functional or User-based testing which means tests are written to simulate user actions on Budgeting Sample Application. Unit testing is Out of Scope.
+The Test plan consists of test scenarios that will cover functional or User-based testing which means tests are written to simulate user actions on WunderFlats Application. Unit testing is Out of Scope.
 
 ************************************************************************************************
 ###  Stack
