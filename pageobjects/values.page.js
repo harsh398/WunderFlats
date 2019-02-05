@@ -11,21 +11,21 @@ var valuesPage = Object.create(page, {
      */
 
         loginI: { value: function () {
-         loginP.loginValues('harsh39@live.com','password123')
+         loginP.loginValues('harsh35@live.com','password123')
     } },
  
        signI: { value: function () {
-         signP.signUpValues("Harsharan","Deep",'harsh39@live.com','password123','password123','9041430599');
+         signP.signUpValues("Harsharan","Deep",'harsh35@live.com','password123','password123','9041430599');
     } },
          signIP: { value: function () {
-         signP.signUpValues( "","",'harsh39@live.com','','','9041430599');
+         signP.signUpValues( "","",'harsh35@live.com','','','9041430599');
     } },
 
      accountI: { value: function () {
-         accountP.profileSetting( "Harsharan","Deep",'harsh39@live.com','','#B31/229 sirhnadi gate','147001','Patiala','Punjab','QA','Freelancer');
+         accountP.profileSetting( "Harsharan","Deep",'harsh35@live.com','','#B31/229 sirhnadi gate','147001','Patiala','Punjab','QA','Freelancer');
     } },
      accountIn: { value: function () {
-         accountP.profileSetting("123456","789",'harsh39@live.com','','#B31/22 sirhnadi gate','14700A','Patial','Punja','Q','Freelance');
+         accountP.profileSetting("123456","789",'harsh35@live.com','','#B31/22 sirhnadi gate','14700A','Patial','Punja','Q','Freelance');
     } },
 
 });
